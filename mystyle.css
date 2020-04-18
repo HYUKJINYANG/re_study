@@ -1,0 +1,43 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.loginbox {
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-image: url("http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column; /*세로나 가로냐 선택*/
+  align-items: center; /*글자 위치 좌우 가운데*/
+  justify-content: center; /*글자 위아래간 간격*/
+}
+.loginbox > h1 {
+  margin: 0px 0px 5px 0px;
+}
+.loginbox2 {
+  margin: 5px 0px 0px 0px;
+}
+.mytext {
+  font-size: 50px;
+}
+p {
+  color: darkkhaki;
+}
+h2 {
+  color: blue;
+}
+.mybtn {
+  padding: 50px 10px 50px 10px;
+  margin-top: 30px;
+}
+.wrap {
+  width: 300px;
+  margin: 10px auto 0px auto;
+}
